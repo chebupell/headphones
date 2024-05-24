@@ -1,0 +1,212 @@
+body {
+    width: 1440px;
+}
+
+/* header */
+
+.logo {
+    width: 47px;
+    height: 46px;
+    margin-left: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 75px;
+}
+
+nav a {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 120% */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 383px;
+    height: 80px;
+}
+
+.phone-promo {
+    background-color: #DCE5E2;
+    display: flex;
+    height: 544px;
+    justify-content: space-between;
+
+}
+
+h1 {
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69.6px; /* 120% */
+    width: 560px;
+    height: 140px;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+.explore-button {
+    border-radius: 200px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 50px;
+}
+
+.phone-section-wrapper {
+    margin-left: 40px;
+    margin-top: 155px;
+}
+
+
+
+.market-section ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.market-section h2 {
+    color: #000;
+    text-align: center;
+    font-family: Readex Pro;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px; /* 125% */
+    margin-top: 50px;
+}
+
+.wrapper-cards {
+    display: flex;
+    gap: 133px;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.market-section ul :nth-child(2) {
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 125% */
+    margin-top: 21px;
+}
+
+.market-section ul :nth-child(3) {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    margin-top: 32px;
+}
+
+.callback-section{
+    background: #DCE5E2;
+    height: 605px;
+}
+
+.callback-section h3{
+    color: #000;
+    text-align: center;
+    font-family: Readex Pro;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px; /* 125% */
+    padding-top: 61px;
+}
+
+.callback-section img {
+    width: 241px;
+    height: 149px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 39px;
+}
+
+.callback-section input {
+    border-radius: 54px 0px 0px 54px;
+    border: 1px solid #000;
+    background: #DCE5E2;
+    width: 285px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 120% */
+    box-sizing: border-box;
+}
+
+.callback-section button {
+    width: 115px;
+    height: 50px;
+    border-radius: 0px 200px 200px 0px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 120% */
+    border: none;
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 70.45px;
+    padding-bottom: 59.55px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+footer h2 {
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 125% */
+    margin-bottom: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+}
+
+footer li:not(:nth-child(1)) {
+    margin-bottom: 18px;
+}
